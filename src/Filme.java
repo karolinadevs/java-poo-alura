@@ -19,11 +19,9 @@ public class Filme {
         somaDasAvaliacoes += nota;
         //toda vez que tiver uma avaliacao, ele vai somar +1.
         totalDeAvaliacoes++;
-
     }
 
     double mediaDasAvaliacoes(){
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
-
 }

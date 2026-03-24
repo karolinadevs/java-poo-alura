@@ -16,5 +16,9 @@ public class Principal {
         System.out.println(meuFilme.somaDasAvaliacoes);
         System.out.println(meuFilme.totalDeAvaliacoes);
         System.out.println(meuFilme.mediaDasAvaliacoes());
+
+        //classe pessoa
+        Pessoa pessoa = new Pessoa();
+        pessoa.saudacao();
     }
 }
