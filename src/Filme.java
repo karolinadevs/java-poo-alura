@@ -22,4 +22,8 @@ public class Filme {
 
     }
 
+    double mediaDasAvaliacoes(){
+        return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+
 }
