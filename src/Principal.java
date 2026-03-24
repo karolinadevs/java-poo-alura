@@ -4,11 +4,11 @@ public class Principal {
         Filme meuFilme = new Filme(); //tipo: referencia
 
         //"." é para acessar algo de alguem
+        //instanciação (criar um objeto com suas proprias caracteristicas)
         meuFilme.nome = "Terrifier";
         meuFilme.anoDeLancamento = 2016;
         meuFilme.duracaoEmMinutos = 84;
 
-        System.out.println(meuFilme.nome);
-        System.out.println(meuFilme.anoDeLancamento);
+
     }
 }
