@@ -10,10 +10,13 @@ public class Filme {
     //atributo privado: variavel dentro de uma classe que so poder ser
     //acessada e modificada pelos metodos da propria classe
 
-    //private double somaDasAvaliacoes;
-    double somaDasAvaliacoes;
-    int totalDeAvaliacoes;
+    private double somaDasAvaliacoes;
+    private int totalDeAvaliacoes;
     int duracaoEmMinutos;
+
+    int getTotalDeAvaliacoes(){
+        return totalDeAvaliacoes;
+    }
 
     void exibeFichaTecnica(){
         System.out.println("nome do filme: " + nome);
