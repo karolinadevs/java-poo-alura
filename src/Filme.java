@@ -17,6 +17,9 @@ public class Filme {
 
     void avalia(double nota){
         somaDasAvaliacoes += nota;
+        //toda vez que tiver uma avaliacao, ele vai somar +1.
+        totalDeAvaliacoes++;
+
     }
 
 }
