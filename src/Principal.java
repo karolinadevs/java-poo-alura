@@ -9,6 +9,6 @@ public class Principal {
         meuFilme.anoDeLancamento = 2016;
         meuFilme.duracaoEmMinutos = 84;
 
-
+        meuFilme.exibeFichaTecnica();
     }
 }
