@@ -6,6 +6,11 @@ public class Filme {
     boolean incluidoNoPlano;
 
     //selecionar um atributo e dar shift + f6, renomeia em todas as vezes que ele aparecer
+
+    //atributo privado: variavel dentro de uma classe que so poder ser
+    //acessada e modificada pelos metodos da propria classe
+
+    //private double somaDasAvaliacoes;
     double somaDasAvaliacoes;
     int totalDeAvaliacoes;
     int duracaoEmMinutos;
