@@ -20,5 +20,10 @@ public class Principal {
         //classe pessoa
         Pessoa pessoa = new Pessoa();
         pessoa.saudacao();
+
+        //classe calculadora
+        Calculadora calculadora = new Calculadora();
+        int resultado = calculadora.dobrarNumero(5);
+        System.out.println(resultado);
     }
 }
