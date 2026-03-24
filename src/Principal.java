@@ -41,29 +41,5 @@ public class Principal {
 
         double mediaAvaliacoes = minhaMusica.pegaMedia();
         System.out.println("Média das avaliações: " + mediaAvaliacoes);
-
-        //classe carro
-        public class Carro {
-            String modelo;
-            int ano;
-            String cor;
-
-            void exibeFichaTecnica() {
-                System.out.println("Modelo: " + modelo);
-                System.out.println("Ano: " + ano);
-                System.out.println("Cor: " + cor);
-            }
-
-            int calculaIdade() {
-                return 2023 - ano;
-            }
-        }
-
-        //classe aluno
-        Aluno meuAluno = new Aluno();
-        meuAluno.nome = "Akemi";
-        meuAluno.idade = 18;
-
-        meuAluno.exibeInformacoes();
     }
 }
