@@ -1,3 +1,5 @@
+//encapsulamento
+
 package br.com.alura.screenmatch.modelos;
 
 //definição de uma classe, tudo o que uma classe tem e tudo o que faz.
@@ -74,3 +76,5 @@ public class Filme {
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }
+
+//todos os atributos precisam ser privados
