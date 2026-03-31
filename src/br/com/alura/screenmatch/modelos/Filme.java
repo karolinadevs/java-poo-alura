@@ -2,9 +2,9 @@ package br.com.alura.screenmatch.modelos;
 
 //definição de uma classe, tudo o que uma classe tem e tudo o que faz.
 public class Filme {
-    public String nome;
-    int anoDeLancamento;
-    boolean incluidoNoPlano;
+    private String nome;
+    private int anoDeLancamento;
+    private boolean incluidoNoPlano;
 
     //selecionar um atributo e dar shift + f6, renomeia em todas as vezes que ele aparecer
 
@@ -13,7 +13,7 @@ public class Filme {
 
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
-    int duracaoEmMinutos;
+    private int duracaoEmMinutos;
 
     public int getTotalDeAvaliacoes(){
         return totalDeAvaliacoes;
