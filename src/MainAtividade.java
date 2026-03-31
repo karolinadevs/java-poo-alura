@@ -1,6 +1,8 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class MainAtividade {
     public static void main(String[] args) {
-        //Filme: guarda onde o objeto está. new Filme: cria o objeto.
+        //br.com.alura.screenmatch.modelos.Filme: guarda onde o objeto está. new br.com.alura.screenmatch.modelos.Filme: cria o objeto.
         Filme meuFilme = new Filme(); //tipo: referencia
 
         //"." é para acessar algo de alguem

@@ -1,6 +1,9 @@
+//import é a forma que uma classe se referencia a outra quando estão em pacotes diferentes
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Principal {
     public static void main(String[] args) {
-        //Filme: guarda onde o objeto está. new Filme: cria o objeto.
+        //br.com.alura.screenmatch.modelos.Filme: guarda onde o objeto está. new br.com.alura.screenmatch.modelos.Filme: cria o objeto.
         Filme meuFilme = new Filme(); //tipo: referencia
 
         //"." é para acessar algo de alguem

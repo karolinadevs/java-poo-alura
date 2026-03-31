@@ -1,5 +1,6 @@
-//definição de uma classe, tudo o que uma classe tem e tudo o que faz.
+package br.com.alura.screenmatch.modelos;
 
+//definição de uma classe, tudo o que uma classe tem e tudo o que faz.
 public class Filme {
     String nome;
     int anoDeLancamento;
@@ -7,7 +8,7 @@ public class Filme {
 
     //selecionar um atributo e dar shift + f6, renomeia em todas as vezes que ele aparecer
 
-    //atributo privado: variavel dentro de uma classe que so poder ser
+    //atributo privado: variavel numa classe que so poder ser
     //acessada e modificada pelos metodos da propria classe
 
     private double somaDasAvaliacoes;
