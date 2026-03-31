@@ -2,7 +2,7 @@ package br.com.alura.screenmatch.modelos;
 
 //definição de uma classe, tudo o que uma classe tem e tudo o que faz.
 public class Filme {
-    String nome;
+    public String nome;
     int anoDeLancamento;
     boolean incluidoNoPlano;
 
@@ -15,22 +15,22 @@ public class Filme {
     private int totalDeAvaliacoes;
     int duracaoEmMinutos;
 
-    int getTotalDeAvaliacoes(){
+    public int getTotalDeAvaliacoes(){
         return totalDeAvaliacoes;
     }
 
-    void exibeFichaTecnica(){
+    public void exibeFichaTecnica(){
         System.out.println("nome do filme: " + nome);
         System.out.println("ano de lancamento: " + anoDeLancamento);
     }
 
-    void avalia(double nota){
+    public void avalia(double nota){
         somaDasAvaliacoes += nota;
         //toda vez que tiver uma avaliacao, ele vai somar +1.
         totalDeAvaliacoes++;
     }
 
-    double pegaMedia(){
+    public double pegaMedia(){
         return somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }
