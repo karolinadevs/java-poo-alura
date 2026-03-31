@@ -7,10 +7,10 @@ public class Principal {
         Filme meuFilme = new Filme(); //tipo: referencia
 
         //"." é para acessar algo de alguem
-        //instanciação (criar um objeto com suas proprias caracteristicas)
+        //instanciação (criar um objeto com a suas proprias caracteristicas)
         meuFilme.setNome("Terrifier");
-        meuFilme.anoDeLancamento = 2016;
-        meuFilme.duracaoEmMinutos = 84;
+        meuFilme.setAnoDeLancamento(2016);
+        meuFilme.setDuracaoEmMinutos(84);
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);

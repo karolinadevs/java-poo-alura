@@ -15,10 +15,29 @@ public class Filme {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+    //getter
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoDeLancamento() {
+        return anoDeLancamento;
+    }
+
+    public boolean isIncluidoNoPlano() {
+        return incluidoNoPlano;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
     //getter: busca valor
     //setter: inclui valor
 
     //alt + insert: atalho que possibilita a geração de um metodo
+
+    //setter
     public void setNome(String nome) {
         //this referencia que indica a este "filme"
         this.nome = nome;
