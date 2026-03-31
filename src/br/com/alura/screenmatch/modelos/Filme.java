@@ -18,6 +18,12 @@ public class Filme {
     //getter: busca valor
     //setter: inclui valor
 
+    //alt + insert: atalho que possibilita a geração de um metodo
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public int getTotalDeAvaliacoes(){
         return totalDeAvaliacoes;
     }
