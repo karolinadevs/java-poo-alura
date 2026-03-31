@@ -8,7 +8,7 @@ public class Principal {
 
         //"." é para acessar algo de alguem
         //instanciação (criar um objeto com suas proprias caracteristicas)
-        meuFilme.nome = "Terrifier";
+        meuFilme.setNome("Terrifier");
         meuFilme.anoDeLancamento = 2016;
         meuFilme.duracaoEmMinutos = 84;
 

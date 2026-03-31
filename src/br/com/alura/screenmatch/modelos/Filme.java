@@ -19,9 +19,21 @@ public class Filme {
     //setter: inclui valor
 
     //alt + insert: atalho que possibilita a geração de um metodo
-
     public void setNome(String nome) {
+        //this referencia que indica a este "filme"
         this.nome = nome;
+    }
+
+    public void setIncluidoNoPlano(boolean incluidoNoPlano) {
+        this.incluidoNoPlano = incluidoNoPlano;
+    }
+
+    public void setAnoDeLancamento(int anoDeLancamento) {
+        this.anoDeLancamento = anoDeLancamento;
+    }
+
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
     public int getTotalDeAvaliacoes(){
