@@ -15,6 +15,9 @@ public class Filme {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+    //getter: busca valor
+    //setter: inclui valor
+
     public int getTotalDeAvaliacoes(){
         return totalDeAvaliacoes;
     }
